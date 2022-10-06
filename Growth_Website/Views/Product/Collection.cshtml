@@ -1,0 +1,43 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+  
+}
+@using testing2.Models
+@model List<Growth_Website.Models.Products>
+ 
+    <!-- collection -->
+    <section id = "collection" class = "py-5">
+        <div class = "container" style = "padding-top: 104px;">
+            <div class = " text-center">
+                <h2 class = "position-relative ">Best Of Us</h2>
+            </div>
+            <div class = "row ">
+                 <div class = "collection-list mt-4 row gx-0 gy-3">
+                @foreach(var a in Model)
+               {
+               
+                 <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                        <div class = "collection-img position-relative">
+                            <img src = "~/Uploads/@a.imagename" class = "w-100">
+                        </div>
+                        <div class = "text-center">
+                          
+                            <p class = "text-capitalize my-1">@a.productName</p>
+                            <span class = "fw-bold">$ @a.price</span><br>
+                            <button type="button"  onclick="sendData(this,'@a.productName','@a.imagename','@a.price','@a.productType')" class = "btn btn-primary mt-3">Add to Cart</button>
+                        </div>
+
+                    </div>
+               }
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of collection -->
+
+
+   
+   
+  

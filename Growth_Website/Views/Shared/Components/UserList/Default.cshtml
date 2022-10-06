@@ -1,0 +1,53 @@
+﻿
+@using testing2.Models
+@model List<Growth_Website.Models.Products>
+
+   
+<div class = "special-list row g-0">
+             @foreach(var a in Model)
+             {
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "~/Uploads/@a.imagename" class = "w-100">
+                       
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">@a.productName</p>
+                        <span class = "fw-bold d-block">  $@a.price </span>
+                    </div>
+                </div>
+             }
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "~/images/special_product_2.jpg" class = "w-100">
+                       
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
+                        <span class = "fw-bold d-block"> $20  </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "~/images/special_product_3.jpg" class = "w-100">
+                       
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
+                        <span class = "fw-bold d-block">  $20 </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2">
+                    <div class = "special-img position-relative overflow-hidden">
+                        <img src = "~/images/special_product_4.jpg" class = "w-100">
+                        
+                    </div>
+                    <div class = "text-center">
+                        <p class = "text-capitalize mt-3 mb-1">gray shirt</p>
+                        <span class = "fw-bold d-block"> $20   </span>
+                    </div>
+                </div>
+            </div>

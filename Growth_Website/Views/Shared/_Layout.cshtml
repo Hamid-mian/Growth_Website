@@ -1,0 +1,336 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Growth</title>
+    <!-- fontawesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    <!-- bootstrap css -->
+    <!-- custom css -->
+
+    <link rel = "stylesheet" href = "∼css/bootstrap.css">
+        <link rel = "stylesheet" href = "∼css/bootstrap-reboot.css">
+    <link rel = "stylesheet" href = "∼css/bootstrap-utilities.css">
+    <link rel = "stylesheet" href = "~/css/main.css">
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script>
+         function allcartdelete(e)
+         {
+              var data = {
+                         };
+                  $.ajax({
+                         type: "POST",
+                         url: "/Cart/Removeall",
+                         data: data,
+                         success: function(data) {
+                         alert("Success");
+                         location.reload();
+                         console.log(data);
+                                    },
+                        error: function(data) {
+                                  //alert("Error");
+                                 }
+                         });
+         }
+          function allcartdelet(e)
+         {
+                              console.log("hy");
+                      var data = {
+                                  };
+                      $.ajax({
+                               type: "POST",
+                               url: "/Cart/Carts",
+                               data: data,
+                               success: function(data) {
+                                    alert("Success");
+                                    location.reload();
+                                    console.log(data);
+                                    },
+                                error: function(data) {
+                                     //alert("Error");
+                                }
+                             });
+        }
+
+        function cartdelete(e,customerid,pname)
+        {
+                     var data = {
+            "customerId": customerid,
+            "productName": pname
+        };
+        $.ajax({
+            type: "POST",
+            url: "/Cart/getData",
+            data: data,
+            success: function(data) {
+                alert("Success");
+                location.reload();
+                console.log(data);
+            },
+            error: function(data) {
+                //alert("Error");
+            }
+        });
+        }
+
+    function sendData(e,pName,iName,price,pType) 
+    {
+
+       
+        var data = {
+            "productName": pName,
+            "imagename": iName,
+            "price": price,
+            "productType": pType
+        };
+        $.ajax({
+            type: "POST",
+            url: "/Cart/Carts",
+            data: data,
+            success: function(data) {
+                alert("Success");
+                console.log(data);
+            },
+            error: function(data) {
+                //alert("Error");
+            }
+        });
+    }
+    
+      function searching() 
+      {
+         console.log("got data");
+         var price = $('#price').val();
+         var prductType = $('#productType').val();
+           var data = {
+        "productType": prductType,
+        "price": price
+         };
+             $.ajax({
+                  type: "POST",
+                  url: "/Product/getSearch",
+                  data: data,
+                 success: function(result) {
+                      console.log(result);
+
+                       if (result.value.length > 0) {
+                    for (var i = 0; i < result.value.length; i++) {
+                        var Data = "<tr>" +
+                            "<td>" + result.value[i].id + "</td>" +
+                            "<td>" + result.value[i].productName + "</td>" +
+                            "<td>" + result.value[i].price + "</td>" +
+                            "<td>" + result.value[i].createdByUserName + "</td>"
+                            +"</tr>"
+                        $('#ajaxdata').append(Data);
+                    }
+                }
+               
+
+                     //response.forEach(myFunction);                       
+
+                     //   function myFunction(item, index) {
+                     //       text += '<div class="col">< div class="card" style = "width: 18rem;" ><div class="card-body"><h4 class="card-title">'+item.productType+'</h4><h6 class="card-title">'+item.productName+'</h6><p class="card-text">'+item.price+'</p></div></div ></div > ';/
+                     //       document.getElementById("ajaxdata").innerHTML = text;
+                     //       console.log(item);
+                     //   }
+                     //   $("#show").html("<p>" + response.name + "</p><p>" + response.age + "</p>");
+                
+                     },
+                 error: function(data) {
+                     console.log("Unsuccefully didn't got data.");
+                        //console.log(response);
+                        //$("#show").html("<p>" + response.responseText + "</p>");
+                    }
+                    });
+      }
+
+
+
+     
+      
+</script>
+ 
+</head>
+<body>
+    <!-- navbar -->
+    <nav class = "navbar navbar-expand-md text-white bg-dark py-4 fixed-top">
+        <div class = "container">
+            <a class = "col-3 navbar-brand justify-content-between align-items-center order-lg-0" href = "/Home/ShowResult">
+                <span class="text-white">GROWTH</span>
+            </a>
+
+            <button class = " bg-white navbar-light navbar-toggler border-0 m-sm-auto" type = "button" data-bs-toggle = "collapse" data-bs-target = "#navMenu">
+                <span class = "navbar-toggler-icon"></span>
+            </button>
+
+            <div class = "col-9 collapse navbar-collapse " id = "navMenu">
+                <ul class = "navbar-nav mx-auto text-center">
+                   <li class = "nav-item px-3 py-2">
+                        <a class = "nav-link text-white" href = "/Home/ShowResult">HOME</a>
+                    </li>
+                    <li class = "nav-item px-3 py-2">
+                        <a class = "nav-link  text-white" href="/Product/Collection">COLLECTION</a>
+                    </li>
+                    <li class = "nav-item px-3 py-2">
+                        <a class = "nav-link  text-white" href = "/Product/Special">SPECIALS</a>
+                    </li>
+                   
+                    <li class = "nav-item px-3 py-2">
+                        <a class = "nav-link  text-white" href = "/Aboutus/About">ABOUT US</a>
+                    </li>
+                    <li class = "nav-item px-3 py-2 border-0">
+                        <a class = "nav-link  text-white" href = "/Product/Popular">POPULAR</a>
+                    </li>
+                   
+                     <li class = "nav-item px-3 py-2 border-0">
+                        <a class = "nav-link  text-white" href = "/Cart/Carts">SHOW CART</a>
+                    </li>
+                     <li class = "nav-item px-3 py-2 border-0 fa fa-search">
+                        <a class = "nav-link  text-white" href = "/Product/Search">SEARCH</a>
+                    </li>
+                    <li class = "nav-item px-3 py-2 border-0">
+                        <a href = "/Login/StudentLogin" class = "btn col-s">Sign Out</a>
+                        
+                    </li>
+
+                </ul>
+            </div>
+            
+
+        </div>
+    </nav>
+
+
+    <div>
+        @RenderBody();
+    </div>
+    @await RenderSectionAsync("Scripts", required:false)
+    
+    <!-- footer -->
+    <footer class = "bg-dark py-5">
+        <div class = "container">
+            <div class = "row text-white g-4">
+                <div class = "col-md-6 col-lg-3">
+                    <a class = "text-uppercase text-decoration-none brand " style="color:wheat;" href = "index.html">GROWTH</a>
+                    <p class = "text-white mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light"style="color:wheat;">Links</h5>
+                    <ul class = "list-unstyled">
+                        <li class = "my-3">
+                            <a href = "/Home/ShowResult" class = "text-white text-decoration-none ">
+                                <i class = "fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "/Product/Collection" class = "text-white text-decoration-none ">
+                                <i class = "fas fa-chevron-right me-1"></i> Collection
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "/Product/Special" class = "text-white text-decoration-none ">
+                                <i class = "fas fa-chevron-right me-1"></i> Specials
+                            </a>
+                        </li>
+                        
+                        <li class = "my-3">
+                            <a href = "/Aboutus/About" class = "text-white text-decoration-none ">
+                                <i class = "fas fa-chevron-right me-1"></i> About Us
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "/Product/Popular" class = "text-white text-decoration-none ">
+                                <i class = "fas fa-chevron-right me-1"></i> Popular
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3"style="color:wheat;">Contact Us</h5>
+                    <div class = "d-flex justify-content-start align-items-start my-2 ">
+                        <span class = "me-3">
+                            <i class = "fas fa-landmark"></i>
+                        </span>
+                        <span class = "fw-light">
+                            Ali Town, Lahore,Punjab, Pakistan
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 ">
+                        <span class = "me-3">
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span class = "fw-light">
+                            growth123@gmail.com
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 ">
+                        <span class = "me-3">
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            +92 346 8905905
+                        </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3"style="color:wheat;">Follow Us</h5>
+                    <div>
+                        <div class = "d-flex justify-content-start align-items-start my-2 ">
+                            <span class = "me-3">
+                                <i class = "fab fa-facebook-f""></i>
+                            </span>
+                            <span class = "fw-light">
+                                 Growth E-Commerce
+                            </span>
+                        </div>
+                        <div class = "d-flex justify-content-start align-items-start my-2">
+                            <span class = "me-3">
+                                <i class = "fab fa-twitter"></i>
+                            </span>
+                            <span class = "fw-light">
+                                Growth E-Commerce
+                            </span>
+                        </div>
+                        <div class = "d-flex justify-content-start align-items-start my-2 ">
+                            <span class = "me-3">
+                                <i class = "fab fa-instagram"></i>
+                            </span>
+                            <span class = "fw-light">
+                                Growth E-Commerce                            </span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <!-- end of footer -->
+
+
+
+
+    <!-- jquery -->
+    <script src = "js/jquery-3.6.0.js"></script>
+    <!-- isotope js -->
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>    <!-- bootstrap js -->
+    <script src = "bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
