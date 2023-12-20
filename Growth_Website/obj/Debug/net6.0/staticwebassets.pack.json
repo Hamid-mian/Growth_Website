@@ -1,0 +1,633 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Hamid Mian\\.nuget\\packages\\bootstrap\\5.1.3\\contentFiles\\any\\any\\wwwroot\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\3.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\air canvas.png",
+      "PackagePath": "staticwebassets\\Uploads\\air canvas.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\best_selling_1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\best_selling_1.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\best_selling_2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\best_selling_2.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\best_selling_3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\best_selling_3.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\c_formal_gray_shirt.png",
+      "PackagePath": "staticwebassets\\Uploads\\c_formal_gray_shirt.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\c_pant_girl.png",
+      "PackagePath": "staticwebassets\\Uploads\\c_pant_girl.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\c_polo-shirt.png",
+      "PackagePath": "staticwebassets\\Uploads\\c_polo-shirt.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\c_shirt-girl.png",
+      "PackagePath": "staticwebassets\\Uploads\\c_shirt-girl.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\c_t-shirt_men.png",
+      "PackagePath": "staticwebassets\\Uploads\\c_t-shirt_men.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\c_tunic-shirt_girl.png",
+      "PackagePath": "staticwebassets\\Uploads\\c_tunic-shirt_girl.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\c_undershirt.png",
+      "PackagePath": "staticwebassets\\Uploads\\c_undershirt.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\c_western-shirt.png",
+      "PackagePath": "staticwebassets\\Uploads\\c_western-shirt.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\on_sale_1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\on_sale_1.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\on_sale_2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\on_sale_2.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\on_sale_3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\on_sale_3.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\special_product_1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\special_product_1.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\special_product_2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\special_product_2.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\special_product_3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\special_product_3.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\special_product_4.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\special_product_4.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\top_rated_1.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\top_rated_1.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\top_rated_2.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\top_rated_2.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\Uploads\\top_rated_3.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\top_rated_3.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\Homepage.jpg",
+      "PackagePath": "staticwebassets\\images\\Homepage.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\about.jpg",
+      "PackagePath": "staticwebassets\\images\\about.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\banner-img-1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-img-1.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\best_selling_1.jpg",
+      "PackagePath": "staticwebassets\\images\\best_selling_1.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\best_selling_2.jpg",
+      "PackagePath": "staticwebassets\\images\\best_selling_2.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\best_selling_3.jpg",
+      "PackagePath": "staticwebassets\\images\\best_selling_3.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\c_formal_gray_shirt.png",
+      "PackagePath": "staticwebassets\\images\\c_formal_gray_shirt.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\c_pant_girl.png",
+      "PackagePath": "staticwebassets\\images\\c_pant_girl.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\c_polo-shirt.png",
+      "PackagePath": "staticwebassets\\images\\c_polo-shirt.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\c_shirt-girl.png",
+      "PackagePath": "staticwebassets\\images\\c_shirt-girl.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\c_t-shirt_men.png",
+      "PackagePath": "staticwebassets\\images\\c_t-shirt_men.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\c_tunic-shirt_girl.png",
+      "PackagePath": "staticwebassets\\images\\c_tunic-shirt_girl.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\c_undershirt.png",
+      "PackagePath": "staticwebassets\\images\\c_undershirt.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\c_western-shirt.png",
+      "PackagePath": "staticwebassets\\images\\c_western-shirt.png"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\offer_img.jpg",
+      "PackagePath": "staticwebassets\\images\\offer_img.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\on_sale_1.jpg",
+      "PackagePath": "staticwebassets\\images\\on_sale_1.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\on_sale_2.jpg",
+      "PackagePath": "staticwebassets\\images\\on_sale_2.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\on_sale_3.jpg",
+      "PackagePath": "staticwebassets\\images\\on_sale_3.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\special_product_1.jpg",
+      "PackagePath": "staticwebassets\\images\\special_product_1.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\special_product_2.jpg",
+      "PackagePath": "staticwebassets\\images\\special_product_2.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\special_product_3.jpg",
+      "PackagePath": "staticwebassets\\images\\special_product_3.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\special_product_4.jpg",
+      "PackagePath": "staticwebassets\\images\\special_product_4.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\top_rated_1.jpg",
+      "PackagePath": "staticwebassets\\images\\top_rated_1.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\top_rated_2.jpg",
+      "PackagePath": "staticwebassets\\images\\top_rated_2.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\images\\top_rated_3.jpg",
+      "PackagePath": "staticwebassets\\images\\top_rated_3.jpg"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Office Work\\growth\\Growth_Website\\Growth_Website\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Growth_Website.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Growth_Website.props",
+      "PackagePath": "build\\Growth_Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Growth_Website.props",
+      "PackagePath": "buildMultiTargeting\\Growth_Website.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Growth_Website.props",
+      "PackagePath": "buildTransitive\\Growth_Website.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

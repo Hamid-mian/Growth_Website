@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Growth_Website.props" />
+</Project>
